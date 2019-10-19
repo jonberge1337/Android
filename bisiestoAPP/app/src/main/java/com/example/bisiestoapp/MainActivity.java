@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
 				String respuesta;
 				boolean bisiesto = false;
 				calculo = Integer.parseInt(aino.getText().toString());
-				if (calculo % 4 == 0 && calculo % 100 != 0){
+				if (calculo % 400 == 0) {
 					bisiesto = true;
-				} else if (calculo % 4 == 0 && calculo % 400 == 0){
+				} else if (calculo % 4 == 0 && calculo % 100 != 0) {
 					bisiesto = true;
 				}
 				respuesta = bisiesto ? "Es bisiesto" : "No es bisiesto";
