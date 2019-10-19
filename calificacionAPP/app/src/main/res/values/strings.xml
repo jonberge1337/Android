@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalificacionAPP</string>
+    <string name="calificacion">Calificación:</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="alumno">Alumno:</string>
+</resources>
