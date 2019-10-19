@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">numeroMayor3</string>
+    <string name="titulo">Número Mayor</string>
+    <string name="boton">MOSTRAR</string>
+    <string name="n_03">Número 03:</string>
+    <string name="n_02">Número 02:</string>
+    <string name="n_01">Número 01:</string>
+</resources>
