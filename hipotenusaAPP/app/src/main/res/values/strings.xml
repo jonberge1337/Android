@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hipotenusaAPP</string>
+    <string name="cateto_c">Cateto c:</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="calcular">Calcular</string>
+    <string name="cateto_b">Cateto b:</string>
+</resources>
