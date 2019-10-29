@@ -107,6 +107,7 @@
             android:background="@color/colorPrimary"
             android:text="@string/limpiar"
             android:textColor="@color/blanco"
+            android:enabled="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/boton1"
             app:layout_constraintStart_toStartOf="parent"

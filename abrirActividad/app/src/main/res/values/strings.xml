@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">abrirActividad</string>
+    <string name="nombre">Nombre:</string>
+    <string name="verificar">Verificar</string>
+    <string name="rechazar">Rechazar</string>
+    <string name="aceptar">Aceptar</string>
+</resources>

@@ -35,8 +35,14 @@ public class MainActivity extends AppCompatActivity {
 		cateto.addTextChangedListener(new TextWatcher() {
 			@Override
 			public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-			}
+				if (s.toString().trim().length() == 0){
+					boton.setEnabled(false);
+					Log.e("Desactivado", "boton");
+				} else {
+					boton.setEnabled(true);
+					Log.e("Activado", "Boton");
+				}
+		}
 
 			@Override
 			public void onTextChanged(CharSequence s, int start, int before, int count) {
