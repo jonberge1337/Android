@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">validarFecha</string>
+    <string name="fecha">Fecha (dd/mm/YYYY)</string>
+    <string name="verificar">VERIFICAR</string>
+</resources>

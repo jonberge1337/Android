@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">operacionAPP</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicaci_n">Multiplicación</string>
+    <string name="divisi_n">División</string>
+    <string name="numero_02">Numero 02:</string>
+    <string name="numero_01">Numero 01:</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="calcular">Calcular</string>
+</resources>
