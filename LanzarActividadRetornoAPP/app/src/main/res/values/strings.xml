@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LanzarActividadRetornoAPP</string>
+    <string name="importe_bruto">Importe bruto</string>
+    <string name="importe">importe</string>
+    <string name="nombre">Artículo</string>
+    <string name="importe_total">Importe Total:</string>
+    <string name="elija_el_iva_a_applicar">Elija el Iva a Applicar</string>
+    <string name="_4">4 %</string>
+    <string name="_21">21 %</string>
+    <string name="_10">10 %</string>
+</resources>
