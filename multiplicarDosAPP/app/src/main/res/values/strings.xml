@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">multiplicarDosAPP</string>
+    <string name="introduce_el_nombre">introduce el nombre</string>
+    <string name="calcular">Calcular</string>
+    <string name="salir">Salir</string>
+    <string name="cantidad">cantidad</string>
+    <string name="resultado">Resultado</string>
+    <string name="numero">Numero</string>
+    <string name="multiplicar_x_2">Multiplicar x 2</string>
+</resources>
