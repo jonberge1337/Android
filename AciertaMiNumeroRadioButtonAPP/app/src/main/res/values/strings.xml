@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AciertaMiNumeroCheckboxAPP</string>
+    <string name="verificar">VERIFICAR</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="_10_intentos">10 intentos</string>
+    <string name="introduzca_un_n_mero">Introduzca un número:</string>
+</resources>
