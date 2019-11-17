@@ -1,3 +1,4 @@
+# Paso de ventanas
 Para abrir nueva ventana:
 ```java
 calcular.setOnClickListener(new View.OnClickListener() {
@@ -17,8 +18,6 @@ recibimos de esta manera:
 Intent intencion = getIntent();
 int duplicado = intencion.getIntExtra("valor", 0); // aqui al recoger es el nombre de la variable y en caso de que no haya el valor por defecto
 ```
-
----
 
 Si queremos mandar para que despues venda devuelta cambian alguna cosa:
 ```java
@@ -71,3 +70,90 @@ protected void onActivityResult(int requestCode, int resultCode, @Nullable Inten
 ```
 ---
 
+# Alertas dialogo
+Para hacer un dialo de alerta escribir lo siguiente:
+
+```java
+AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+alertDialog.setTitle("Alert");
+alertDialog.setMessage("Alert message to be shown");
+alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+		new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+			}
+		});
+alertDialog.show();
+
+```
+---
+# Toast
+Para poner un toast:
+```java
+Toast.makeText(getApplicationContext(), "prueba", Toast.LENGTH_SHORT).show();
+```
+
+---
+# Spinner
+
+strings.xml:
+```xml
+<string-array name="numeros">
+    <item>uno</item>
+    <item>dos</item>
+    <item>tres</item>
+    <item>cuatro</item>
+    <item>cinco</item>
+</string-array>
+```
+activity_main.xml:
+
+```xml
+<Spinner
+    android:id="@+id/spinner"
+    android:layout_width="match_parent"
+    android:entries="@array/numeros"
+    android:layout_height="wrap_content" />
+```
+
+MainActivity.java:
+```java
+numeros = findViewById(R.id.spnNumeros);
+
+numeros.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+	@Override
+	public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+		Toast.makeText(getApplicationContext(), numeros.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+	}
+
+	@Override
+	public void onNothingSelected(AdapterView<?> parent) {
+
+	}
+});
+```
+---
+# RadioGroup
+
+```java
+grupo.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+	@Override
+	public void onCheckedChanged(RadioGroup group, int checkedId) {
+		Toast.makeText(getApplicationContext(), "has cambiado de checkbox", Toast.LENGTH_SHORT).show();
+	}
+});
+
+```
+
+---
+
+# Checkbox 
+
+```java
+chk2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+	@Override
+	public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+		Toast.makeText(getApplicationContext(), "checkbox2", Toast.LENGTH_SHORT).show();
+	}
+});
+```
