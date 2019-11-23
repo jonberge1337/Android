@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">listview</string>
+    <string-array name="opciones">
+        <item>Opcion 1</item>
+        <item>Opcion 2</item>
+        <item>Opcion 3</item>
+    </string-array>
+</resources>
