@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">idiomasTraduccionesAPP</string>
+    <string-array name="paises">
+        <item>castellano</item>
+        <item>euskara</item>
+        <item>inglés</item>
+        <item>alemán</item>
+        <item>noruego</item>
+    </string-array>
+    <string-array name="traducciones">
+        <item>No hay sábado sin sol, ni mofeta sin olor</item>
+        <item>Ez dago larunbatik eguzkirik gabe, ezta ipurtatsik usairik gabe</item>
+        <item>There no saturday without sun nor odorless skunk</item>
+        <item>Es gibt keinen Samstag ohne Sonne, kein Stinktier ohne Geruch</item>
+        <item>Det er ingen lørdag uten sol, ingen skunk uten lukt</item>
+    </string-array>
+</resources>
